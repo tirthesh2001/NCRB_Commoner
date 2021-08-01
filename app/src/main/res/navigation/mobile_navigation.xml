@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_noc">
+
+    <fragment
+        android:id="@+id/nav_noc"
+        android:name="com.example.ncrbcommoner.ui.NOC.NOCFragment"
+        android:label="@string/menu_noc"
+        tools:layout="@layout/fragment_noc" />
+
+    <fragment
+        android:id="@+id/nav_fir"
+        android:name="com.example.ncrbcommoner.ui.FIR.FIRFragment"
+        android:label="@string/menu_fir"
+        tools:layout="@layout/fragment_fir" />
+
+    <fragment
+        android:id="@+id/nav_appointment"
+        android:name="com.example.ncrbcommoner.ui.Appointment.AppointmentFragment"
+        android:label="@string/menu_apt"
+        tools:layout="@layout/fragment_appointment" />
+</navigation>

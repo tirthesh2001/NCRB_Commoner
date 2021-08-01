@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617352274596",
+    "project_id": "ncrb-app-32888",
+    "storage_bucket": "ncrb-app-32888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617352274596:android:ccdfe525828e1308dffc31",
+        "android_client_info": {
+          "package_name": "com.example.ncrbcommoner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617352274596-0ev54mso8oje62gfbeqqehkac6epiuqt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJNX03HoLCwqrPJJrT1vxYKL_fes3T-Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617352274596-0ev54mso8oje62gfbeqqehkac6epiuqt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

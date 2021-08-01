@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NOC.NOCFragment"
+    android:background="#ffe6e6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_selectfile"
+        android:text="Select the Document:"
+        android:textSize="20dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"/>
+
+        <Spinner
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/text_selectfile"
+            android:id="@+id/select_edit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:background="@drawable/edittxt_commonerlogin"
+            />
+
+        <EditText
+            android:id="@+id/file_upload"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/select_edit"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/edittxt_commonerlogin"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/select_edit"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/btn_red2"
+            android:text="GET File"
+            android:textColor="@color/white" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:text="Upload"
+            android:layout_below="@+id/file_upload"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_red2"
+            android:textColor="@color/white"
+            android:layout_marginBottom="200dp"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NCRB COMMONER</string>
+    <string name="title_activity_police_nav">police_nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_fir">FIR</string>
+    <string name="menu_noc">NOC</string>
+    <string name="menu_apt">Appointment</string>
+    <string name="title_activity_user_nav">user_nav</string>
+    <string name="login">Login</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email_id">Enter Email Id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="phone_no">Enter Number</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="title_activity_nav_main">Nav_main</string>
+    <string name="submit_btn">Submit</string>
+    <string name="fir">FIR</string>
+    <string name="noc">NOC</string>
+    <string name="appointment">Appointment</string>
+
+</resources>
